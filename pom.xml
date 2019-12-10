@@ -38,6 +38,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>6.0.6</version>
         </dependency>
+
         <!--jdbc认证需要添加的，这个是cas的依赖包-->
         <dependency>
             <groupId>org.apereo.cas</groupId>
@@ -46,11 +47,11 @@
         </dependency>
 
         <!-- rest支持 -->
-       <!-- <dependency>
+        <dependency>
             <groupId>org.apereo.cas</groupId>
             <artifactId>cas-server-support-rest-authentication</artifactId>
             <version>${cas.version}</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>
